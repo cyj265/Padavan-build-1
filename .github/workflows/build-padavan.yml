@@ -66,7 +66,7 @@ jobs:
               
     - name: Clone source code
       run: |
-        git clone --depth=1 https://github.com/keke1023/Padavan.git ${{ env.DIR }}
+        git clone --depth=1 https://github.com/cyj265/rt-n56u.git ${{ env.DIR }}
         cd ${{ env.DIR }}/toolchain-mipsel
         sh dl_toolchain.sh
         mkdir -p /opt/images/
